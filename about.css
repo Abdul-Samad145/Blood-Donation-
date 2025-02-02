@@ -1,0 +1,95 @@
+body {
+    background-image: url('https://img.freepik.com/free-vector/happy-world-blood-donor-day-red-white-yellow-background-social-media-design-banner-free-vector_1340-21611.jpg?ga=GA1.1.862404509.1718769370&semt=ais_hybrid');
+    background-size: contain;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .about-section {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  .about-section:hover {
+    transform: scale(1.02);
+  }
+  .about-section h3 {
+    color: #dc3545;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .about-section p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  .statistics {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 60px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  .statistics h2 {
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 2.5rem;
+    transition: transform 0.3s ease-in-out;
+  }
+  .statistics:hover h2 {
+    transform: scale(1.1);
+  }
+  .statistics p {
+    font-size: 1.2rem;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+  .statistics:hover p {
+    color: #dc3545;
+  }
+  .navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .nav-link {
+    font-size: 16px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  .nav-link:hover {
+    color: #dc3545 !important;
+  }
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .btn-danger:hover {
+    background-color: #c82333;
+    transform: scale(1.1);
+  }
+  footer {
+    background-color: #343a40;
+    color: #fff;
+  }
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  footer a:hover {
+    color: #dc3545;
+  }
+  .social-icons a {
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  .social-icons a:hover {
+    color: #dc3545;
+  }

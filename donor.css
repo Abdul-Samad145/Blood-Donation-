@@ -1,0 +1,88 @@
+body {
+    background-image: url('https://img.freepik.com/free-vector/happy-world-blood-donor-day-red-white-yellow-background-social-media-design-banner-free-vector_1340-21611.jpg?ga=GA1.1.862404509.1718769370&semt=ais_hybrid');
+    background-size: contain;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .search-section {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  .search-section h2 {
+    color: #dc3545;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .form-control {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  .form-control:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 8px rgba(220, 53, 69, 0.2);
+  }
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  .navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .nav-link {
+    font-size: 16px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  .nav-link:hover {
+    color: #dc3545 !important;
+  }
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  .card-title {
+    color: #dc3545;
+    font-weight: bold;
+  }
+  .card-text {
+    color: #555;
+  }
+  footer {
+    background-color: #343a40;
+    color: #fff;
+  }
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  footer a:hover {
+    color: #dc3545;
+  }
+  .social-icons a {
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  .social-icons a:hover {
+    color: #dc3545;
+  }

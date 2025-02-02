@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emergency Blood Request - Blood Donation</title>
+  <link rel="stylesheet" href="emergency.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+ 
+</head>
+<body>
+
+
+
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" ><img src="blood-donation (1).png" alt=" logo" />  Blood Donation</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="blood.html">Donate</a></li>
+          <li class="nav-item"><a class="nav-link" href="donor_page.html">Find a Donor</a></li>
+          <li class="nav-item"><a class="nav-link active" href="emergency.html">Emergency Request</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+        <button class="btn btn-danger ms-3">Donate Now</button>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+  <!-- Emergency Blood Request Form -->
+  <section class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="emergency-form">
+          <h2 class="text-center mb-4">Emergency Blood Request</h2>
+          <form>
+            <div class="mb-3">
+              <label for="patientName" class="form-label">Patient Name</label>
+              <input type="text" class="form-control" id="patientName" required>
+            </div>
+            <div class="mb-3">
+              <label for="bloodGroup" class="form-label">Blood Group</label>
+              <select class="form-select" id="bloodGroup" required>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="hospitalName" class="form-label">Hospital Name</label>
+              <input type="text" class="form-control" id="hospitalName" required>
+            </div>
+            <div class="mb-3">
+              <label for="location" class="form-label">Location</label>
+              <input type="text" class="form-control" id="location" required>
+            </div>
+            <div class="mb-3">
+              <label for="contactNumber" class="form-label">Contact Number</label>
+              <input type="tel" class="form-control" id="contactNumber" required>
+            </div>
+            <div class="mb-3">
+              <label for="urgency" class="form-label">Urgency Level</label>
+              <select class="form-select" id="urgency" required>
+                <option value="Critical">Critical (Immediate)</option>
+                <option value="High">High (Within 24 Hours)</option>
+                <option value="Medium">Medium (Within 48 Hours)</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-danger w-100">Submit Request</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-dark text-white">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class="me-5 d-none d-lg-block">
+        <span>Stay connected with us on social media:</span>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-tint me-3"></i>About Blood Donation
+            </h6>
+            <p>
+              We connect blood donors with patients in need, saving lives by providing a reliable platform for donations. Together, we can ensure that no one ever lacks access to life-saving blood.
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Quick Links</h6>
+            <p><a href="about.html">About Us</a></p>
+            <p><a href="blood.html">Become a Donor</a></p>
+            <p><a href="donor_page.html">Find a Donor</a></p>
+            <p><a href="contact.html">Contact Us</a></p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Useful Information</h6>
+            <p><a href="#!">How Blood Donation Works</a></p>
+            <p><a href="#!">FAQs</a></p>
+            <p><a href="#!">Safety and Guidelines</a></p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2025 Blood Donation - All Rights Reserved
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

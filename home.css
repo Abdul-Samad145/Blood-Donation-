@@ -1,0 +1,55 @@
+body {
+    background-image: url('https://img.freepik.com/free-vector/happy-world-blood-donor-day-red-white-yellow-background-social-media-design-banner-free-vector_1340-21611.jpg?ga=GA1.1.862404509.1718769370&semt=ais_hybrid');
+    background-size: contain;
+  }
+  .hero-section {
+  
+   background-image: url('https://th.bing.com/th/id/OIP.A6HE601XsegyBgjxH1AN4gHaHa?w=1960&h=1960&rs=1&pid=ImgDetMain');
+   background-repeat: round ;
+  background-size: contain;
+    color: white;
+    padding: 100px 0;
+  }
+  .testimonials {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 50px 0;
+  }
+
+  .bg-color-primary {
+    background-color: #ffcccc; /* Light red background color */
+    transition: background-color 0.3s ease;
+  }
+
+  .bg-color-primary:hover {
+    background-color: #ff6666; /* Darker red on hover */
+  }
+
+  .feature-box {
+    background: #ffe6e6;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    background: red; /* Slightly darker background */
+    cursor: pointer; /* Makes it look clickable */
+  }
+  
+  .navbar-nav .nav-link {
+    transition: color 0.3s ease-in-out;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #ff6666 !important;
+  }
+  .btn-danger {
+    transition: background 0.3s, transform 0.3s;
+  }
+  .btn-danger:hover {
+    background: #cc0000;
+    transform: scale(1.05);
+  }
+  

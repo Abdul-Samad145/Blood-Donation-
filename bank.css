@@ -1,0 +1,76 @@
+body {
+    background-image: url('https://img.freepik.com/free-vector/happy-world-blood-donor-day-red-white-yellow-background-social-media-design-banner-free-vector_1340-21611.jpg?ga=GA1.1.862404509.1718769370&semt=ais_hybrid');
+    background-size: contain;
+}
+
+
+.hero-section {
+  background: rgba(255, 0, 0, 0.7);
+  color: white;
+  padding: 100px 0;
+}
+.blood-stock {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+
+table, th, td {
+    background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+
+th {
+  background-color: #dc3545;
+  color: white;
+}
+
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+  }
+
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+
+  footer a:hover {
+    color: #dc3545;
+  }
+
+
+  .social-icons a {
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+
+
+  .social-icons a:hover {
+    color: #dc3545;
+  }

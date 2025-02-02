@@ -1,0 +1,79 @@
+body {
+    background-image: url('https://img.freepik.com/free-vector/happy-world-blood-donor-day-red-white-yellow-background-social-media-design-banner-free-vector_1340-21611.jpg?ga=GA1.1.862404509.1718769370&semt=ais_hybrid');
+    background-size: contain;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hospital-section 
+{
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.hospital-section h2 {
+  color: #dc3545;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.hospital-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+.hospital-card:hover {
+  transform: translateY(-5px);
+}
+.hospital-card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+.hospital-card .card-body {
+  padding: 20px;
+}
+.hospital-card .card-title {
+  color: #dc3545;
+  font-weight: bold;
+}
+.hospital-card .card-text {
+  color: #555;
+}
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+.nav-link {
+  font-size: 16px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: #dc3545 !important;
+}
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+footer a:hover {
+  color: #dc3545;
+}
+.social-icons a {
+  font-size: 20px;
+  margin: 0 10px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+.social-icons a:hover {
+  color: #dc3545;
+}
